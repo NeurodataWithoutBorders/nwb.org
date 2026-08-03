@@ -13,6 +13,7 @@ organizers:
 #   - "Stephanie Prince, Ph.D. (Program Chair)"
 #   - "Ryan Ly, Ph.D. (Program Chair)"
 resources:
+  "Event Report": "https://drive.google.com/file/d/1CIcdLK5kTdYPIuCoGcqTIxnliTI6Yso3/view?usp=sharing"
   "Recorded Talks": "https://www.youtube.com/playlist?list=PLEv3d3vCiZ20"
 #   "Event Flyer": "https://drive.google.com/file/d/1ptsGRa1sEMh-je7L_ff3CgtRTj-X11lO/view?usp=sharing"
 #   "Slides from the 2025 NeuroDataReHack": "https://drive.google.com/drive/folders/1DAmQr4qWCamhj_2Zyke0kkHGvV8Kyq13?usp=sharing"
@@ -21,6 +22,10 @@ resources:
 aliases:
   - /nwb_hackathons/HCK26_2026_Janelia_NDRH
 ---
+
+## Report
+
+See the [NeuroDataReHack 2026 Report](https://drive.google.com/file/d/1CIcdLK5kTdYPIuCoGcqTIxnliTI6Yso3/view?usp=sharing) for a summary of the event, projects completed, and feedback from participants.
 
 ## Objective
 
