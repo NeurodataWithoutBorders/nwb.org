@@ -9,6 +9,22 @@ summary: "Unlock new discoveries in neurophysiology through secondary analysis."
 draft: false
 organizers:
   - "Benjamin Dichter, Ph.D. (Program Chair)"
+instructors:
+  - name: "Benjamin Dichter, Ph.D."
+    affiliation: "CatalystNeuro"
+    image: "/images/ben-dichter.jpeg"
+  - name: "Ryan Ly, Ph.D."
+    affiliation: "Lawrence Berkeley National Laboratory"
+    image: "/images/ryan-ly.png"
+  - name: "Oliver Ruebel, Ph.D."
+    affiliation: "Lawrence Berkeley National Laboratory"
+    image: "/images/oliver-ruebel.png"
+  - name: "Edoardo Balzani, Ph.D."
+    affiliation: "Flatiron Institute"
+    image: "/images/edoardo-balzani.png"
+  - name: "Sarah Jo Venditto, Ph.D."
+    affiliation: "Flatiron Institute"
+    image: "/images/sarah-jo-venditto.jpg"
 resources:
   "PyNWB Documentation": "https://pynwb.readthedocs.io/en/stable/install_users.html#installing-pynwb"
   "MatNWB Documentation": "https://matnwb.readthedocs.io"
@@ -50,7 +66,9 @@ A detailed schedule will be posted closer to the event. For a sense of the forma
 
 ## Instructors
 
-Instructors will be announced closer to the event.
+{{< instructors >}}
+
+Additional instructors will be announced closer to the event.
 
 ## Eligibility
 
