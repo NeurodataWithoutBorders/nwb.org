@@ -25,6 +25,9 @@ instructors:
   - name: "Sarah Jo Venditto, Ph.D."
     affiliation: "Flatiron Institute"
     image: "/images/sarah-jo-venditto.jpg"
+  - name: "Carter Peene"
+    affiliation: "Allen Institute for Neural Dynamics"
+    image: "/images/carter-peene.jpeg"
 resources:
   "PyNWB Documentation": "https://pynwb.readthedocs.io/en/stable/install_users.html#installing-pynwb"
   "MatNWB Documentation": "https://matnwb.readthedocs.io"
