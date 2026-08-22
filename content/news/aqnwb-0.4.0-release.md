@@ -2,19 +2,19 @@
 title: "AqNWB 0.4.0 Released"
 weight: 1
 date: "2026-08-24"
-subtitle: "A major release enhancing support for NWB 2.10 and table data types."
+subtitle: "A major release enhancing support for NWB 2.11 and table data types."
 image: "/images/aqnwb_0.4_release_banner.png"
 tags: announcement, software, aqnwb, release
 ---
 
 We are excited to announce the release of [**AqNWB 0.4.0**](https://github.com/NeurodataWithoutBorders/aqnwb/releases/tag/0.4.0), the latest version of the open C/C++ API for enabling direct data acquisition in the Neurodata Without Borders (NWB) data standard. AqNWB fills a critical gap in the NWB software ecosystem by allowing researchers and hardware developers to acquire data directly into the NWB format.
 
-This release brings significant new capabilities, including streaming data read and major enhancements to support tabular data types via the `DynamicTable` class. With the release of NWB 2.10, this version of AqNWB now adds support for the new `EventsTable` for recording events data, `MeaningsTable` for adding machine-readable semantic meanings to `DynamicTable` columns, and support for annotating time intervals via `TimeIntervals`.
+This release brings significant new capabilities, including streaming data read and major enhancements to support tabular data types via the `DynamicTable` class. With the release of NWB 2.11, this version of AqNWB now adds support for the new `EventsTable` for recording events data, `MeaningsTable` for adding machine-readable semantic meanings to `DynamicTable` columns, and support for annotating time intervals via `TimeIntervals`.
 
 
-## Support more NWB 2.10 neurodata types
+## Support more NWB 2.11 neurodata types
 
-AqNWB now writes NWB files using the latest NWB 2.10 schema. AqNWB continues to expand its capabilities to grow coverage of key NWB data types, focusing in this release on adding support for event and time interval data types. Key additions include:
+AqNWB now writes NWB files using the latest NWB 2.11 schema. AqNWB continues to expand its capabilities to grow coverage of key NWB data types, focusing in this release on adding support for event and time interval data types. Key additions include:
 
 - **EventsTable**: A dedicated, standardized way to represent event data, including support for the new `TimestampVectorData` and `DurationVectorData` types.
 - **TimeIntervals**: Support for annotating time intervals, enabling standard tables like `trials`, `invalid_times`, and `epochs`.
