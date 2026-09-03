@@ -7,7 +7,7 @@ image: "/images/aqnwb_0.4_release_banner.png"
 tags: announcement, software, aqnwb, release
 ---
 
-We are excited to announce the release of [**AqNWB 0.4.0**](https://github.com/NeurodataWithoutBorders/aqnwb/releases/tag/0.4.0), the latest version of the open C/C++ API for enabling direct data acquisition in the Neurodata Without Borders (NWB) data standard. AqNWB fills a critical gap in the NWB software ecosystem by allowing researchers and hardware developers to acquire data directly into the NWB format.
+We are excited to announce the release of [**AqNWB 0.4.0**](https://github.com/NeurodataWithoutBorders/aqnwb/releases/tag/0.4.0), the latest version of the open C++ API for enabling direct data acquisition in the Neurodata Without Borders (NWB) data standard. AqNWB fills a critical gap in the NWB software ecosystem by allowing researchers and hardware developers to acquire data directly into the NWB format.
 
 This release brings significant new capabilities, including streaming data read and major enhancements to support tabular data types via the `DynamicTable` class. With the release of NWB 2.11, this version of AqNWB now adds support for the new `EventsTable` for recording events data, `MeaningsTable` for adding machine-readable semantic meanings to `DynamicTable` columns, and support for annotating time intervals via `TimeIntervals`.
 
@@ -20,7 +20,7 @@ AqNWB now writes NWB files using the latest NWB 2.11 schema. AqNWB continues to 
 - **TimeIntervals**: Support for annotating time intervals, enabling standard tables like `trials`, `invalid_times`, and `epochs`.
 - **MeaningsTable**: Support for adding machine-readable semantic meanings to `DynamicTable` columns.
 - **VectorIndex**: Support for single-ragged array columns via the new `VectorIndex` type. `TimeIntervals` uses `VectorIndex` for its `tags` column to support arbitrary numbers of tags per time interval.
-- **Subject**: Improving support for handling subject metadata.
+- **Subject**: Support for handling subject metadata.
 
 ## Enhanced DynamicTable Capabilities
 
