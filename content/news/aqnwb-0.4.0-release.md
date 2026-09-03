@@ -1,7 +1,7 @@
 ---
 title: "AqNWB 0.4.0 Released"
 weight: 1
-date: "2026-08-24"
+date: "2026-09-03"
 subtitle: "A major release enhancing support for NWB 2.11 and table data types."
 image: "/images/aqnwb_0.4_release_banner.png"
 tags: announcement, software, aqnwb, release
